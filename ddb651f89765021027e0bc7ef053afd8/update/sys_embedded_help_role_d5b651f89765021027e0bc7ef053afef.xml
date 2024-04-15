@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_niit3_i_ignite.admin" name="x_niit3_i_ignite.admin">5db651f89765021027e0bc7ef053afed</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-11 08:16:09</sys_created_on>
+        <sys_id>d5b651f89765021027e0bc7ef053afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5db651f89765021027e0bc7ef053afed</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d5b651f89765021027e0bc7ef053afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-11 08:16:09</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

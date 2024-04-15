@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_ignite_idea" label="Ignite Idea" language="en" table="x_niit3_i_ignite_i_ignite_feedback">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ignite_idea</element>
+            <help/>
+            <hint/>
+            <label>Ignite Idea</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_feedback</name>
+            <plural>Ignite Ideas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 10:18:47</sys_created_on>
+            <sys_id>ef5c3a099761821027e0bc7ef053afbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ignite Idea</sys_name>
+            <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+            <sys_update_name>sys_documentation_x_niit3_i_ignite_i_ignite_feedback_u_ignite_idea_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 10:18:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

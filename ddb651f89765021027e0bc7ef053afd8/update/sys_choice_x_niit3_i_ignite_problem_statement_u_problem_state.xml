@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_problem_state" table="x_niit3_i_ignite_problem_statement" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_problem_state</element>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:08:51</sys_created_on>
+            <sys_id>55e0564d976d421027e0bc7ef053af76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_problem_state</sys_name>
+            <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+            <sys_update_name>sys_choice_x_niit3_i_ignite_problem_statement_u_problem_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:08:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96a0de4d976d421027e0bc7ef053aff5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:08:51</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94819e4d976d421027e0bc7ef053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:11:30</sys_updated_on>
+            <value>Review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Publish</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:11:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5781d68d976d421027e0bc7ef053af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:11:43</sys_updated_on>
+            <value>Publish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retire</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:11:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee91d68d976d421027e0bc7ef053af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:11:56</sys_updated_on>
+            <value>Retire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:12:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bea19a49976d421027e0bc7ef053af56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:12:14</sys_updated_on>
+            <value>Closed Complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_problem_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Rejected</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_problem_statement</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 07:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75b19e0d976d421027e0bc7ef053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 07:12:26</sys_updated_on>
+            <value>Closed Rejected</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
