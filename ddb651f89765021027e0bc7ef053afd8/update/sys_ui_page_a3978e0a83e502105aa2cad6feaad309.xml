@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_niit3_i_ignite_contact_us.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:ui_form id="f_id">
+		<h2> Contact Us </h2>
+			<b><p style="font-size: 16px">Please reach out to Coforge ServiceNow Presales Team for any Product related query.</p></b>
+		<table>
+	    <tr>
+			<td><p style="font-size: 15px"><b>Email</b> :<a href="mailto:someone@example.com"><i>                        <u>ServiceNowPresales@coforge.com</u></i></a> </p></td>
+			</tr>
+			</table>
+			</g:ui_form>
+
+</j:jelly>]]></html>
+        <name>contact_us</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 09:04:44</sys_created_on>
+        <sys_id>a3978e0a83e502105aa2cad6feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>contact_us</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_ui_page_a3978e0a83e502105aa2cad6feaad309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 09:04:44</sys_updated_on>
+    </sys_ui_page>
+</record_update>

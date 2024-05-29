@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_meeting_end_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Meeting start time/endtime validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var end = g_form.getValue("u_meeting_end_time");
+    var start = g_form.getValue("u_meeting_start_time");
+
+    if (start == "" || end == "") {
+        return;
+    }
+    var format = g_user_date_time_format;
+    var isEndBeforeStart = compareDates(start, format, end, format);
+    if (isEndBeforeStart) {
+		alert(isEndBeforeStart);
+        g_form.showErrorBox('u_meeting_end_time', 'Meeting end time must be after Meeting start time');
+		return false;
+    }
+	else{
+		return true;
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 07:29:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac8b321a83ed42105aa2cad6feaad378</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Meeting start time/endtime validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_script_client_ac8b321a83ed42105aa2cad6feaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 07:48:50</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
