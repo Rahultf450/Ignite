@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Ignite Hide Task tab</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '') {
+        g_form.hideRelatedList("vtb_task");
+        //         return;
+    }
+
+    var brkState = g_form.getValue('state');
+    if (brkState == 5 || brkState == 6) {
+        g_form.showRelatedList("vtb_task");
+    } else if (brkState == 1 || brkState == 2 || brkState == 3 || brkState == 4) {
+        g_form.hideRelatedList("vtb_task");
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 07:03:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1607ade83ad42105aa2cad6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ignite Hide Task tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_script_client_e1607ade83ad42105aa2cad6feaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 07:03:37</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

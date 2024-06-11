@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0cda1e0d97ad421027e0bc7ef053af13" label="I-Ignite Matrix" max_length="40" name="x_niit3_i_ignite_i_ignite_matrix" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Idea Manager Group" max_length="32" name="idea_manager_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Customer" max_length="40" name="u_customer" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Customer" inactive_on_update="false" label="IAT" sequence="8" value="IAT"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="NCLH" sequence="6" value="NCLH"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Assurant" sequence="4" value="Assurant"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Aflac" sequence="5" value="Aflac"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Dubai Airport" sequence="3" value="Dubai Airport"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Costa" sequence="1" value="Costa"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Channel 4" sequence="7" value="Channel 4"/>
+                <element dependent_value="Customer" inactive_on_update="false" label="Bright Speed" sequence="2" value="Bright Speed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Value Add for" max_length="40" name="u_value_add_for" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Customer" sequence="1" value="Customer"/>
+                <element inactive_on_update="false" label="Organisation" sequence="3" value="Organisation"/>
+                <element inactive_on_update="false" label="Vertical" sequence="2" value="Vertical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IAB Notification Group" max_length="32" name="u_iab_notification_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Vertical" max_length="40" name="vertical" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Vertical" inactive_on_update="false" label="IMS" sequence="1" value="IMS"/>
+                <element dependent_value="Vertical" inactive_on_update="false" label="Insurance" sequence="3" value="Insurance"/>
+                <element dependent_value="Vertical" inactive_on_update="false" label="Manufacturing" sequence="4" value="Manufacturing"/>
+                <element dependent_value="Vertical" inactive_on_update="false" label="HR" sequence="2" value="HR"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="idea_manager_group"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_iab_notification_group"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_impex_map">
+    <sys_impex_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent/>
+        <apply_defaults>true</apply_defaults>
+        <coalesce/>
+        <condition_script/>
+        <data_option>insert_update</data_option>
+        <data_source/>
+        <description/>
+        <external_names/>
+        <name>icalendar.x_niit3_i_ignite_ideation_portal</name>
+        <order/>
+        <parent/>
+        <script/>
+        <sys_class_name>sys_impex_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-27 09:30:24</sys_created_on>
+        <sys_id>38a06ae3835602105aa2cad6feaad359</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>icalendar.x_niit3_i_ignite_ideation_portal</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_impex_map_38a06ae3835602105aa2cad6feaad359</sys_update_name>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-05-28 07:41:35</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <type>icalendar</type>
+    </sys_impex_map>
+</record_update>

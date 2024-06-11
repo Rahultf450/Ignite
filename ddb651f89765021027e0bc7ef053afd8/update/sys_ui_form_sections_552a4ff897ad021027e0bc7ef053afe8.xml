@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="552a4ff897ad021027e0bc7ef053afe8" sys_domain="global" table="x_niit3_i_ignite_ideation_portal" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 06:55:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05fd4a49976d421027e0bc7ef053afa8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_niit3_i_ignite_ideation_portal" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">552a4ff897ad021027e0bc7ef053afe8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">043891b89765021027e0bc7ef053afd3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-15 08:52:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 16:40:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>592a4ff897ad021027e0bc7ef053afec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_niit3_i_ignite_ideation_portal" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">552a4ff897ad021027e0bc7ef053afe8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">552a4ff897ad021027e0bc7ef053afa7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 16:40:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 16:40:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>512a4ff897ad021027e0bc7ef053aff0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_niit3_i_ignite_ideation_portal" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">552a4ff897ad021027e0bc7ef053afe8</sys_ui_form>
+            <sys_ui_section caption="Idea  Approval Board Details" display_value="Idea  Approval Board Details" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">112a4ff897ad021027e0bc7ef053afa9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 16:40:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 16:44:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>342b077c97ad021027e0bc7ef053af0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_niit3_i_ignite_ideation_portal" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">552a4ff897ad021027e0bc7ef053afe8</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_niit3_i_ignite_ideation_portal" sys_domain="global" view="Default view">702b077c97ad021027e0bc7ef053af0c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 16:44:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 16:40:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>552a4ff897ad021027e0bc7ef053afe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_niit3_i_ignite_ideation_portal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_552a4ff897ad021027e0bc7ef053afe8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 16:40:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

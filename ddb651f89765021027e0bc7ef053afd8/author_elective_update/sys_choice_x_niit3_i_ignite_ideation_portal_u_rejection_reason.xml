@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_rejection_reason" table="x_niit3_i_ignite_ideation_portal" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_rejection_reason</element>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 13:17:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_rejection_reason</sys_name>
+            <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+            <sys_update_name>sys_choice_x_niit3_i_ignite_ideation_portal_u_rejection_reason</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 13:17:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>7</dependent_value>
+            <element>u_rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 13:17:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 15:36:04</sys_updated_on>
+            <value>Duplicate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>7</dependent_value>
+            <element>u_rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid Idea</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 15:18:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 15:36:04</sys_updated_on>
+            <value>Invalid Idea</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>7</dependent_value>
+            <element>u_rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Budget unavailability</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 15:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 15:36:04</sys_updated_on>
+            <value>Budget unavailability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>7</dependent_value>
+            <element>u_rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Skill unavailability</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 15:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 15:36:04</sys_updated_on>
+            <value>Skill unavailability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>7</dependent_value>
+            <element>u_rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_ideation_portal</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-11 15:20:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-11 15:36:04</sys_updated_on>
+            <value>Others</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

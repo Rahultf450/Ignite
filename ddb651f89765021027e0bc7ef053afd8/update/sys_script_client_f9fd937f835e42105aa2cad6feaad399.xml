@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_meeting_start_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Start date cannot be before today</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	var startDate = g_form.getValue('u_meeting_start_time');
+
+    var gt = new GlideAjax('ideaSubmission');
+    gt.addParam('sysparm_name','getCurrentDate');
+	var res = gt.getXMLAnswer(checkCurrentDay);
+
+	function checkCurrentDay(response){
+		if(startDate < response){
+			g_form.addErrorMessage('Your start date cannot be less than current date');
+			return false;
+		}
+	}
+	alert('res'+res);
+	return res;
+
+    
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Rahul.Chand</sys_created_by>
+        <sys_created_on>2024-05-28 08:42:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9fd937f835e42105aa2cad6feaad399</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Start date cannot be before today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_script_client_f9fd937f835e42105aa2cad6feaad399</sys_update_name>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-06-06 06:58:47</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

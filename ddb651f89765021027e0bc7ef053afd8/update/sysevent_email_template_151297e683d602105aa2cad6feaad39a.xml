@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_niit3_i_ignite_ideation_portal</collection>
+        <email_layout/>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[BEGIN: VCALENDAR
+PRODID:-//Service-now.com//Outlook 11.0 MIMEDIR//EN
+VERSION:2.0
+METHOD: REQUEST
+BEGIN: VEVENT
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE:MAILTO: ${to}
+ORGANIZER:MAILTO: ${from}
+DTSTART: ${dtstart}
+DTEND:${dtend}
+TRANSP: OPAQUE
+UID: ${number}
+DTSTAMP: ${dtstamp}
+DESCRIPTION: ${description}
+X-MICROSOFT-CDO-IMPORTANCE: ${priority}
+STATUS: CONFIRMED
+CLASS: PUBLIC
+END: VEVENT
+END: VCALENDAR]]></message_text>
+        <name>Idea.calendar.integration</name>
+        <sms_alternate/>
+        <subject>SPECIAL CASE TEMPLATE -- Push ideas into an outlook calendar</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>ritika.balodi</sys_created_by>
+        <sys_created_on>2024-05-24 10:32:41</sys_created_on>
+        <sys_id>151297e683d602105aa2cad6feaad39a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Idea.calendar.integration</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sysevent_email_template_151297e683d602105aa2cad6feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-27 10:34:23</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

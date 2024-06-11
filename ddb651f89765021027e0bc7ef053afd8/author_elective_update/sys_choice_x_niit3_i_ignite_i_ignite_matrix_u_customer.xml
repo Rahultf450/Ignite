@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_customer" table="x_niit3_i_ignite_i_ignite_matrix" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_customer</element>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 08:28:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_customer</sys_name>
+            <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+            <sys_update_name>sys_choice_x_niit3_i_ignite_i_ignite_matrix_u_customer</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 08:28:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Costa</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 08:28:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:47:30</sys_updated_on>
+            <value>Costa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bright Speed</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:47:59</sys_updated_on>
+            <value>Bright Speed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dubai Airport</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:48:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:48:20</sys_updated_on>
+            <value>Dubai Airport</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assurant</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:48:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:48:42</sys_updated_on>
+            <value>Assurant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aflac</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:48:59</sys_updated_on>
+            <value>Aflac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NCLH</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:49:20</sys_updated_on>
+            <value>NCLH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Channel 4</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:49:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:49:41</sys_updated_on>
+            <value>Channel 4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer</dependent_value>
+            <element>u_customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IAT</label>
+            <language>en</language>
+            <name>x_niit3_i_ignite_i_ignite_matrix</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-12 09:49:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-12 09:50:06</sys_updated_on>
+            <value>IAT</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

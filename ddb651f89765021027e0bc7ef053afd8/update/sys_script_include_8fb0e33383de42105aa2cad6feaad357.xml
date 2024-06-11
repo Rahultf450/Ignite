@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_niit3_i_ignite.ideaSubmission</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ideaSubmission</name>
+        <script><![CDATA[var ideaSubmission = Class.create();
+ideaSubmission.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCurrentDate: function(){
+		var gdt = new GlideDateTime();
+		return gdt;
+	},
+    type: 'ideaSubmission'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Rahul.Chand</sys_created_by>
+        <sys_created_on>2024-05-28 09:08:25</sys_created_on>
+        <sys_id>8fb0e33383de42105aa2cad6feaad357</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>ideaSubmission</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_script_include_8fb0e33383de42105aa2cad6feaad357</sys_update_name>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-05-28 10:00:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
