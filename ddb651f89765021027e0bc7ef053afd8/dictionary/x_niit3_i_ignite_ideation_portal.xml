@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3228dd3c9765021027e0bc7ef053af62" extends="task" label="I-Ignite Ideas" max_length="40" name="x_niit3_i_ignite_ideation_portal" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Problem Statement" max_length="32" name="u_problem_statement" reference="x_niit3_i_ignite_problem_statement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="vertical" choice_table="x_niit3_i_ignite_i_ignite_matrix" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Vertical" max_length="40" name="u_vertical" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="1" label="Improvement Focus" max_length="100" name="u_improvement_focus" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Existing" sequence="2" value="existing"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Profile" max_length="32" name="u_profile" reference="live_profile" type="reference"/>
+        <element default="javascript:new GlideDateTime()" label="Idea Submission Date" max_length="100" name="u_idea_submission_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_customer" choice_table="x_niit3_i_ignite_i_ignite_matrix" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Customer" max_length="40" name="u_customer" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="1" dependent="state" dependent_on_field="state" label="Rejection Reason" max_length="40" name="u_rejection_reason" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="7" inactive_on_update="false" label="Budget unavailability" sequence="3" value="Budget unavailability"/>
+                <element dependent_value="7" inactive_on_update="false" label="Invalid Idea" sequence="2" value="Invalid Idea"/>
+                <element dependent_value="7" inactive_on_update="false" label="Duplicate" sequence="1" value="Duplicate"/>
+                <element dependent_value="7" inactive_on_update="false" label="Skill unavailability" sequence="4" value="Skill unavailability"/>
+                <element dependent_value="7" inactive_on_update="false" label="Others" sequence="5" value="Others"/>
+            </choice>
+        </element>
+        <element label="Meeting end time" max_length="40" name="u_meeting_end_time" type="glide_date_time"/>
+        <element label="Meeting start time" max_length="40" name="u_meeting_start_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" choice_field="u_value_add_for" choice_table="x_niit3_i_ignite_i_ignite_matrix" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Value Add for" max_length="40" name="u_value_add_for" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Idea Manager Group" max_length="32" name="u_idea_manager_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Problem Statement" mandatory="true" max_length="4000" name="u_new_problem_statement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vote" max_length="40" name="u_vote" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IAB Group" max_length="32" name="u_iab_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Idea Sub-state" max_length="100" name="u_idea_sub_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Refer Back" sequence="2" value="refer back"/>
+                <element inactive_on_update="false" label="Selected For Development" sequence="3" value="Selected_for_development"/>
+                <element inactive_on_update="false" label="In Development" sequence="4" value="In development"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_improvement_focus" dependent_on_field="u_improvement_focus" label="Improvement Focus Type" max_length="40" name="u_improvement_focus_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="existing" inactive_on_update="false" label="Utilities" sequence="3" value="utilities"/>
+                <element dependent_value="new" inactive_on_update="false" label="Utilities" sequence="7" value="Utilities"/>
+                <element dependent_value="existing" inactive_on_update="false" label="Process" sequence="1" value="Process"/>
+                <element dependent_value="new" inactive_on_update="false" label="Framework" sequence="8" value="Framework"/>
+                <element dependent_value="existing" inactive_on_update="false" label="Framework" sequence="4" value="Framework"/>
+                <element dependent_value="existing" inactive_on_update="false" label="Tools" sequence="2" value="tools"/>
+                <element dependent_value="new" inactive_on_update="false" label="Tools" sequence="6" value="Tools"/>
+                <element dependent_value="new" inactive_on_update="false" label="Process" sequence="5" value="Process1"/>
+            </choice>
+        </element>
+        <element choice="3" default="yes" label="Is your Idea addressing an existing problem?" mandatory="true" max_length="100" name="u_is_your_idea_addressing_an" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_idea_manager_group" dependent_on_field="u_idea_manager_group" label="Idea Manager" max_length="32" name="u_idea_manager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="array=denormalized,edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Contributing Team Members" max_length="1024" name="u_contributing_team_members" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+    </element>
+</database>

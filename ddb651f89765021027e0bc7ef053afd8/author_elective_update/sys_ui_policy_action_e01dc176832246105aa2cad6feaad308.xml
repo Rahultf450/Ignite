@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>parent.short_description</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>ritika.balodi</sys_created_by>
+        <sys_created_on>2024-06-06 05:45:23</sys_created_on>
+        <sys_id>e01dc176832246105aa2cad6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parent.short_description</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e01dc176832246105aa2cad6feaad308</sys_update_name>
+        <sys_updated_by>ritika.balodi</sys_updated_by>
+        <sys_updated_on>2024-06-06 05:45:23</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <ui_policy display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e01dc176832246105aa2cad6feaad308"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</application>
+        <file_path/>
+        <instance_id>e034439c1b110610a43dcb7b234bcbea</instance_id>
+        <instance_name>dev250849</instance_name>
+        <name>sys_ui_policy_action_e01dc176832246105aa2cad6feaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>parent.short_description</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>ritika.balodi</sys_created_by><sys_created_on>2024-06-06 05:45:23</sys_created_on><sys_id>e01dc176832246105aa2cad6feaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>parent.short_description</sys_name><sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package><sys_policy/><sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope><sys_update_name>sys_ui_policy_action_e01dc176832246105aa2cad6feaad308</sys_update_name><sys_updated_by>ritika.balodi</sys_updated_by><sys_updated_on>2024-06-06 05:45:23</sys_updated_on><table>x_niit3_i_ignite_ideation_portal</table><ui_policy display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e01dc176832246105aa2cad6feaad308"/></record_update>]]></payload>
+        <payload_hash>696717911</payload_hash>
+        <record_name>parent.short_description</record_name>
+        <reverted_from/>
+        <source>1ca682c683e502105aa2cad6feaad377</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ritika.balodi</sys_created_by>
+        <sys_created_on>2024-06-06 05:45:23</sys_created_on>
+        <sys_id>763d41b2832246105aa2cad6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fec1497130000001</sys_recorded_at>
+        <sys_updated_by>ritika.balodi</sys_updated_by>
+        <sys_updated_on>2024-06-06 05:45:23</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7a3d41b219224610d65c9e0386b9e366</update_guid>
+        <update_guid_history>7a3d41b219224610d65c9e0386b9e366:696717911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ritika.balodi</sys_created_by>
+        <sys_created_on>2024-06-06 05:47:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7553c35ce10b4706827d2f113ad14924</sys_id>
+        <sys_metadata>e01dc176832246105aa2cad6feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parent.short_description</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_parent display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_scope_delete display_value="">a36635111b8b4f1895ac7ec927691790</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e01dc176832246105aa2cad6feaad308</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e01dc176832246105aa2cad6feaad308">763d41b2832246105aa2cad6feaad367</sys_update_version>
+        <sys_updated_by>ritika.balodi</sys_updated_by>
+        <sys_updated_on>2024-06-06 05:47:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

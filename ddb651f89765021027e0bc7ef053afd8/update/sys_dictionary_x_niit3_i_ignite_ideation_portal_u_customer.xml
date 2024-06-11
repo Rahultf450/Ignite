@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-11 11:00:13</sys_created_on>
-        <sys_id>5bdbb1789729021027e0bc7ef053af91</sys_id>
         <sys_name>Customer</sys_name>
         <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
         <sys_policy/>

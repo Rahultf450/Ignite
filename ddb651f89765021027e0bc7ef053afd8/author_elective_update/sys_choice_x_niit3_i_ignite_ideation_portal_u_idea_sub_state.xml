@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-11 12:35:32</sys_created_on>
-            <sys_id>45129efc9729021027e0bc7ef053afeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_idea_sub_state</sys_name>
             <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2024-04-11 12:35:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>11a1d27497a9021027e0bc7ef053af62</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-11 12:35:51</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2024-04-11 12:36:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>91121a7497a9021027e0bc7ef053af83</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-11 12:36:13</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2024-04-11 12:36:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c5321efc9729021027e0bc7ef053afd2</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-11 12:37:31</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2024-04-11 12:37:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fb42de389769021027e0bc7ef053afc8</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-11 12:37:27</sys_updated_on>

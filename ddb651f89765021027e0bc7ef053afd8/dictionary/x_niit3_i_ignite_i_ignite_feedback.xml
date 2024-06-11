@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a0b7ac59761821027e0bc7ef053affd" label="I-Ignite Feedback" max_length="40" name="x_niit3_i_ignite_i_ignite_feedback" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Parent ID" max_length="32" name="u_parent_id" type="document_id"/>
+        <element label="Voting Comments" max_length="4000" name="u_voting_comments" type="journal_input"/>
+        <element attributes="base_start=true,edge_encryption_enabled=true" label="Parent Table" max_length="80" name="u_parent_table" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Feedback Type" max_length="40" name="u_feedback_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Downvote" sequence="2" value="Downvote"/>
+                <element inactive_on_update="false" label="Upvote" sequence="1" value="Upvote"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Profile" max_length="32" name="u_profile" reference="live_profile" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Ignite Idea" max_length="32" name="u_ignite_idea" reference="x_niit3_i_ignite_ideation_portal" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Provided by" max_length="32" name="u_provided_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Up Vote" max_length="40" name="u_up_vote" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Vote" max_length="40" name="u_vote" type="integer"/>
+        <element label="Comments" max_length="4000" name="u_comments" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_ignite_idea"/>
+        </index>
+        <index name="index3">
+            <element name="u_parent_id"/>
+        </index>
+        <index name="index4">
+            <element name="u_profile"/>
+        </index>
+        <index name="index5">
+            <element name="u_provided_by"/>
+        </index>
+    </element>
+</database>

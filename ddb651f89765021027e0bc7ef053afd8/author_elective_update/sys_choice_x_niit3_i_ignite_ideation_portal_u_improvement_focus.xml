@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_feedback_type" table="x_niit3_i_ignite_i_ignite_feedback" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_improvement_focus" table="x_niit3_i_ignite_ideation_portal" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_feedback_type</element>
-            <name>x_niit3_i_ignite_i_ignite_feedback</name>
+            <element>u_improvement_focus</element>
+            <name>x_niit3_i_ignite_ideation_portal</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-12 10:25:48</sys_created_on>
-            <sys_id>56fd36c99761821027e0bc7ef053afae</sys_id>
+            <sys_created_on>2024-04-11 12:45:05</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_feedback_type</sys_name>
+            <sys_name>u_improvement_focus</sys_name>
             <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
             <sys_policy/>
             <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
-            <sys_update_name>sys_choice_x_niit3_i_ignite_i_ignite_feedback_u_feedback_type</sys_update_name>
+            <sys_update_name>sys_choice_x_niit3_i_ignite_ideation_portal_u_improvement_focus</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-12 10:25:48</sys_updated_on>
+            <sys_updated_on>2024-04-11 12:45:05</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_feedback_type</element>
+            <element>u_improvement_focus</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Upvote</label>
+            <label>New</label>
             <language>en</language>
-            <name>x_niit3_i_ignite_i_ignite_feedback</name>
+            <name>x_niit3_i_ignite_ideation_portal</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-12 10:25:48</sys_created_on>
+            <sys_created_on>2024-04-11 12:45:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fcfd7ec99761821027e0bc7ef053af54</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-12 10:25:55</sys_updated_on>
-            <value>Upvote</value>
+            <sys_updated_on>2024-04-11 12:45:11</sys_updated_on>
+            <value>new</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_feedback_type</element>
+            <element>u_improvement_focus</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Downvote</label>
+            <label>Existing</label>
             <language>en</language>
-            <name>x_niit3_i_ignite_i_ignite_feedback</name>
+            <name>x_niit3_i_ignite_ideation_portal</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-12 10:26:06</sys_created_on>
+            <sys_created_on>2024-04-11 12:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d2fd3ec99761821027e0bc7ef053afb4</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-12 10:26:12</sys_updated_on>
-            <value>Downvote</value>
+            <sys_updated_on>2024-04-11 12:45:35</sys_updated_on>
+            <value>existing</value>
         </sys_choice>
     </sys_choice>
 </record_update>

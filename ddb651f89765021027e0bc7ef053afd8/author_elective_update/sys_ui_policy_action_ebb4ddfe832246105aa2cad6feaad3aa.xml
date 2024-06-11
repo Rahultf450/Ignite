@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_customer</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Rahul.Chand</sys_created_by>
+        <sys_created_on>2024-06-06 06:18:28</sys_created_on>
+        <sys_id>ebb4ddfe832246105aa2cad6feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_customer</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ebb4ddfe832246105aa2cad6feaad3aa</sys_update_name>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-06-06 06:18:28</sys_updated_on>
+        <table>x_niit3_i_ignite_ideation_portal</table>
+        <ui_policy display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=ebb4ddfe832246105aa2cad6feaad3aa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</application>
+        <file_path/>
+        <instance_id>e034439c1b110610a43dcb7b234bcbea</instance_id>
+        <instance_name>dev250849</instance_name>
+        <name>sys_ui_policy_action_ebb4ddfe832246105aa2cad6feaad3aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_customer</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>Rahul.Chand</sys_created_by><sys_created_on>2024-06-06 06:18:28</sys_created_on><sys_id>ebb4ddfe832246105aa2cad6feaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_customer</sys_name><sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package><sys_policy/><sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope><sys_update_name>sys_ui_policy_action_ebb4ddfe832246105aa2cad6feaad3aa</sys_update_name><sys_updated_by>Rahul.Chand</sys_updated_by><sys_updated_on>2024-06-06 06:18:28</sys_updated_on><table>x_niit3_i_ignite_ideation_portal</table><ui_policy display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=ebb4ddfe832246105aa2cad6feaad3aa"/></record_update>]]></payload>
+        <payload_hash>509859703</payload_hash>
+        <record_name>u_customer</record_name>
+        <reverted_from/>
+        <source>1ca682c683e502105aa2cad6feaad377</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Rahul.Chand</sys_created_by>
+        <sys_created_on>2024-06-06 06:18:28</sys_created_on>
+        <sys_id>67c49dfe832246105aa2cad6feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fec32e2490000001</sys_recorded_at>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-06-06 06:18:28</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6bc49dfe23224610d151e3fa32bc93d8</update_guid>
+        <update_guid_history>6bc49dfe23224610d151e3fa32bc93d8:509859703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Rahul.Chand</sys_created_by>
+        <sys_created_on>2024-06-06 06:35:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>8946cae227da407ca0e4b2b1d044e0d9</sys_id>
+        <sys_metadata>ebb4ddfe832246105aa2cad6feaad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_customer</sys_name>
+        <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
+        <sys_parent display_value="Make fields read-only on close complete/closed rejected">c3d481ba83ee06105aa2cad6feaad3fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
+        <sys_scope_delete display_value="">a36635111b8b4f1895ac7ec927691790</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ebb4ddfe832246105aa2cad6feaad3aa</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ebb4ddfe832246105aa2cad6feaad3aa">67c49dfe832246105aa2cad6feaad3d9</sys_update_version>
+        <sys_updated_by>Rahul.Chand</sys_updated_by>
+        <sys_updated_on>2024-06-06 06:35:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

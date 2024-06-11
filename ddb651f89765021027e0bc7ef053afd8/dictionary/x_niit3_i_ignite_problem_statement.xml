@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="10d9923097e9021027e0bc7ef053afa7" label="Problem Statement" max_length="40" name="x_niit3_i_ignite_problem_statement" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Draft" label="Problem State" max_length="40" name="u_problem_state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Publish" sequence="3" value="Publish"/>
+                <element inactive_on_update="false" label="Closed Rejected" sequence="6" value="Closed Rejected"/>
+                <element inactive_on_update="false" label="Review" sequence="2" value="Review"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="Draft"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="5" value="Closed Complete"/>
+                <element inactive_on_update="false" label="Retire" sequence="4" value="Retire"/>
+            </choice>
+        </element>
+        <element label="Idea Submission Last Date" max_length="40" name="u_idea_submission_last_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_value_add_for" choice_table="x_niit3_i_ignite_i_ignite_matrix" default="Organisation" label="Value Add for" max_length="40" name="u_value_add_for" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Customer" sequence="1" value="Customer"/>
+                <element inactive_on_update="false" label="Vertical" sequence="2" value="Vertical"/>
+                <element inactive_on_update="false" label="Organisation" sequence="3" value="Organisation"/>
+            </choice>
+        </element>
+        <element choice="3" dependent="u_problem_state" dependent_on_field="u_problem_state" label="Problem Sub-state" max_length="100" name="u_problem_sub_state" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Review" inactive_on_update="false" label="Refer Back" sequence="2" value="Refer Back"/>
+                <element dependent_value="Review" inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_customer" choice_table="x_niit3_i_ignite_i_ignite_matrix" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Customer" max_length="40" name="u_customer" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Problem Submitter" max_length="32" name="u_problem_submitter" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Idea Manager Group" max_length="32" name="u_idea_manager_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Profile" max_length="32" name="u_profile" reference="live_profile" type="reference"/>
+        <element choice="1" dependent="u_problem_state" dependent_on_field="u_problem_state" label="Rejection Reason" max_length="100" name="u_rejection_reason" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Closed Rejected" inactive_on_update="false" label="Invalid Problem" sequence="1" value="Invalid Problem"/>
+                <element dependent_value="Closed Rejected" inactive_on_update="false" label="Duplicate" sequence="2" value="Duplicate"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vote" max_length="40" name="u_vote" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Comments" max_length="4000" name="u_comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_idea_manager_group" dependent_on_field="u_idea_manager_group" label="Idea Manager" max_length="32" name="u_idea_manager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element display="true" label="Problem Statement" mandatory="true" max_length="4000" name="u_problem_statement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="vertical" choice_table="x_niit3_i_ignite_i_ignite_matrix" dependent="u_value_add_for" dependent_on_field="u_value_add_for" label="Vertical" max_length="40" name="u_vertical" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Problem Statement End Date" max_length="40" name="u_problem_statement_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IAB Approval Group" max_length="32" name="u_iab_approval_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_iab_approval_group"/>
+        </index>
+        <index name="index3">
+            <element name="u_idea_manager"/>
+        </index>
+        <index name="index4">
+            <element name="u_idea_manager_group"/>
+        </index>
+        <index name="index5">
+            <element name="u_problem_submitter"/>
+        </index>
+        <index name="index6">
+            <element name="u_profile"/>
+        </index>
+    </element>
+</database>
