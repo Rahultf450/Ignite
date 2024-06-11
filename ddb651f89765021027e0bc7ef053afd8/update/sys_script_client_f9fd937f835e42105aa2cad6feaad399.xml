@@ -21,8 +21,6 @@
 	var res = gt.getXMLAnswer(checkCurrentDay);
 
 	function checkCurrentDay(response){
-		g_form.addInfoMessage('startDate'+startDate);
-		g_form.addInfoMessage('response'+response);
 		if(startDate < response){
 			g_form.addErrorMessage('Your start date cannot be less than current date');
 			return false;
@@ -40,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9fd937f835e42105aa2cad6feaad399</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Start date cannot be before today</sys_name>
         <sys_overrides/>
         <sys_package display_value="I-Ignite" source="x_niit3_i_ignite">ddb651f89765021027e0bc7ef053afd8</sys_package>
@@ -48,7 +46,7 @@
         <sys_scope display_value="I-Ignite">ddb651f89765021027e0bc7ef053afd8</sys_scope>
         <sys_update_name>sys_script_client_f9fd937f835e42105aa2cad6feaad399</sys_update_name>
         <sys_updated_by>Rahul.Chand</sys_updated_by>
-        <sys_updated_on>2024-05-28 10:53:19</sys_updated_on>
+        <sys_updated_on>2024-06-06 06:58:47</sys_updated_on>
         <table>x_niit3_i_ignite_ideation_portal</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
